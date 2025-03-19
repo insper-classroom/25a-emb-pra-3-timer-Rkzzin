@@ -57,10 +57,10 @@ int main() {
     datetime_t t = {
         .year = 2025,
         .month = 03,
-        .day = 15,
+        .day = 19,
         .dotw = 6, // 0 is Sunday, so 3 is Wednesday
-        .hour = 19,
-        .min = 05,
+        .hour = 10,
+        .min = 50,
         .sec = 00};
     rtc_init();
     rtc_set_datetime(&t);
