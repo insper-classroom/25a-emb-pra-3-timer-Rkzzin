@@ -67,7 +67,7 @@ int main() {
 
     alarm_id_t alarm;
     char start;
-    float distance = 0;
+    float distance;
     int estado = 0;
 
     printf("Pressione 'A' para iniciar o monitoramento\n");
